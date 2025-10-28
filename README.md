@@ -1,10 +1,12 @@
+This project is to create a chatbot that operates on limited hardware, an ESP32 in this case. While it revolves around a specific character, think of this as a template that could be adapted to any litereary works or character emulation.
+
 # Dogberry Bot
 
-An autonomous ESP32-powered Bluesky account (@constabledogberry.bsky.social) posting as Constable Dogberry with on-device AI text generation.
+An autonomous ESP32-powered Bluesky account (@constabledogberry.bsky.social) posting as Constable Dogberry with on-device AI text generation. The ai model is available at [dogberry-ai-esp32](https://github.com/johnsonfarmsus/dogberry-ai-esp32)
 
 ## About
 
-Constable Dogberry operates his own Bluesky account, sharing wisdom (and malapropisms) from the watch. The bot monitors the `#askdogberry` hashtag, responds to questions, and posts daily witticisms - all powered by a micro language model running entirely on an ESP32-S3R8 microcontroller.
+Constable Dogberry operates his own Bluesky account, sharing wisdom (and malapropisms) from the watch. The bot monitors the `@constabledogberry.bsky.social` mentions in posts, responds to questions, and posts daily witticisms - all powered by a micro language model running entirely on an ESP32-S3R8 microcontroller.
 
 **Character**: Constable Dogberry from Shakespeare's "Much Ado About Nothing"
 **Famous For**: Comic malapropisms and self-important bumbling wisdom
@@ -441,17 +443,16 @@ This will print:
 ## Future Enhancements
 
 ### Planned
-- [ ] Thread awareness - don't reply twice in same thread
+- [ ] Utilization of the on device display
 - [ ] User memory - track frequent users
 - [ ] Multiple responses - generate several, pick best
 - [ ] Engagement analytics - track likes/reposts
 
 ### Ideas
-- [ ] React to mentions (without hashtag) occasionally
+- [ ] React to mentions (without mentions) occasionally
 - [ ] Seasonal greetings - special posts on holidays
 - [ ] Image generation - Dogberry ASCII art on TFT
 - [ ] Web dashboard - view stats and logs
-- [ ] OTA updates - update firmware remotely
 - [ ] Battery support - run on LiPo battery
 
 ## Related Documentation
@@ -469,7 +470,7 @@ This will print:
 
 ## License
 
-MIT License - See LICENSE file
+GNU Affero General Public License v3.0
 
 ## Credits
 
