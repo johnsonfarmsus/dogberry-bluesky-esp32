@@ -1,0 +1,25 @@
+# Secrets and credentials
+esp32_inference/secrets.h
+esp32_firmware/src/secrets.h
+
+# Arduino/PlatformIO build artifacts
+.pio/
+.vscode/
+build/
+*.elf
+*.bin
+*.map
+
+# ESP32 specific
+sdkconfig
+sdkconfig.old
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+.idea/
